@@ -207,7 +207,7 @@ export default function AlisaPage() {
                   <div className="flex justify-between items-center border-b border-white/30 pb-3">
                     <span className="text-red-100">月額料金</span>
                     <div className="text-right">
-                      <span className="font-bold text-2xl">50,000〜60,000</span>
+                      <span className="font-bold text-2xl">60,000</span>
                       <span className="text-red-100 text-sm ml-1">円/月</span>
                     </div>
                   </div>

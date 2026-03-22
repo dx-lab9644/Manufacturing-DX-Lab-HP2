@@ -210,7 +210,7 @@ export default function StellaPage() {
               <div className="flex items-baseline justify-between">
                 <span className="text-gray-700 font-medium">月額料金</span>
                 <div className="text-right">
-                  <span className="text-4xl font-bold text-gray-800">50,000〜60,000</span>
+                  <span className="text-4xl font-bold text-gray-800">60,000</span>
                   <span className="text-gray-600 ml-2">円</span>
                 </div>
               </div>

@@ -125,7 +125,7 @@ export default function Home() {
               <div className="flex items-baseline justify-between">
                 <span className="text-gray-700 font-medium">月額料金</span>
                 <div className="text-right">
-                  <span className="text-4xl font-bold text-gray-800">50,000〜60,000</span>
+                  <span className="text-4xl font-bold text-gray-800">60,000</span>
                   <span className="text-gray-600 ml-2">円</span>
                 </div>
               </div>
@@ -170,7 +170,7 @@ export default function Home() {
                   <span>{f}</span>
                 </div>
               ))}
-              <div className="text-2xl font-bold text-gray-800 mb-2 mt-4">月額 50,000〜60,000円</div>
+              <div className="text-2xl font-bold text-gray-800 mb-2 mt-4">月額 60,000円</div>
               <p className="text-sm text-gray-600 mb-6">※製品版リリース後の料金</p>
               <Link href="/alisa" className="block w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-semibold transition-colors text-center">
                 詳しく見る
@@ -197,7 +197,7 @@ export default function Home() {
                   <span>{f}</span>
                 </div>
               ))}
-              <div className="text-2xl font-bold text-gray-800 mb-2 mt-4">月額 50,000〜60,000円</div>
+              <div className="text-2xl font-bold text-gray-800 mb-2 mt-4">月額 60,000円</div>
               <p className="text-sm text-gray-600 mb-6">※初期費用別途</p>
               <Link href="/stella" className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors text-center">
                 詳しく見る
@@ -311,7 +311,7 @@ export default function Home() {
                   <h3 className="text-lg font-bold text-gray-800 mb-4">特典</h3>
                   <ul className="space-y-3 text-gray-700">
                     <li>✅ <span className="font-semibold">初期費用無料</span>（通常150,000円）</li>
-                    <li>✅ <span className="font-semibold">期間中の月額無料</span>（通常50,000〜60,000円/月）</li>
+                    <li>✅ <span className="font-semibold">期間中の月額無料</span>（通常60,000円/月）</li>
                     <li>✅ <span className="font-semibold">製品版移行時に料金優遇</span></li>
                   </ul>
                 </div>
