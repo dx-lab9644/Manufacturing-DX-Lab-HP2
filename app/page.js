@@ -234,16 +234,16 @@ export default function Home() {
               </div>
             </div>
 
-            {/* 基準在庫算出 */}
+            {/* 生産計画自動化ツール */}
             <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-shadow">
               <div className="bg-purple-600 text-white w-16 h-16 rounded-xl flex items-center justify-center mb-6">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">生産計画自動化ツール（WICS）</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">生産計画自動化ツール</h3>
               <p className="text-gray-600 mb-6">直近3ヶ月の出荷実績からばらつきを分析し、リードタイムに合わせた基準在庫と生産計画を自動生成。</p>
-              {['Excelで動作', '統計的な分析', '買い切り型'].map((f) => (
+              {['デスクトップアプリ', '統計的な分析', '買い切り型'].map((f) => (
                 <div key={f} className="flex items-center gap-2 text-gray-700 mb-3">
                   <svg className="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -251,7 +251,7 @@ export default function Home() {
                   <span>{f}</span>
                 </div>
               ))}
-              <div className="text-2xl font-bold text-gray-800 mb-6 mt-4">4,980円（買い切り）</div>
+              <div className="text-2xl font-bold text-gray-800 mb-6 mt-4">19,800円（買い切り）</div>
               <Link href="/#contact" className="block w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg font-semibold transition-colors text-center">
                 お問い合わせ
               </Link>
