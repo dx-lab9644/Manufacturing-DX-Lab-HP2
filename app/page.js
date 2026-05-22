@@ -31,10 +31,10 @@ export default function Home() {
           <p className="text-lg md:text-xl mb-8 text-gray-300">製造業の管理をシンプルに。</p>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8 inline-block">
             <p className="text-white text-lg mb-2">
-              <span className="font-bold text-yellow-400">βテスト期間：</span>2026年7月～9月
+              <span className="font-bold text-yellow-400">βテスト期間：</span>2026年10月～12月
             </p>
             <p className="text-white text-lg">
-              <span className="font-bold text-yellow-400">製品版リリース：</span>2026年10月予定
+              <span className="font-bold text-yellow-400">製品版リリース：</span>2027年1月予定
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
