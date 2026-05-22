@@ -68,7 +68,7 @@ export default function AlisaPage() {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block bg-yellow-500 text-gray-900 px-6 py-2 rounded-full text-sm font-bold mb-6">
-              開発中・2026年10月リリース予定
+              開発中・2027年1月リリース予定
             </div>
             <h1 className="text-6xl md:text-8xl font-bold mb-4">ALISA</h1>
             <p className="text-2xl text-yellow-400 font-semibold mb-6">Automated Lean Integrated Smart Application</p>
@@ -197,7 +197,7 @@ export default function AlisaPage() {
               <div className="relative z-10">
                 <div className="text-center mb-6">
                   <div className="inline-block bg-white/20 text-white px-4 py-1 rounded-full text-sm font-bold mb-3">製品版</div>
-                  <h3 className="text-xl font-bold">2026年10月リリース予定</h3>
+                  <h3 className="text-xl font-bold">2027年1月リリース予定</h3>
                 </div>
                 <div className="space-y-4 mb-8">
                   <div className="flex justify-between items-center border-b border-white/30 pb-3">

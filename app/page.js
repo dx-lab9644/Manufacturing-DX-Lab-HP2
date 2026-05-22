@@ -31,10 +31,10 @@ export default function Home() {
           <p className="text-lg md:text-xl mb-8 text-gray-300">製造業の管理をシンプルに。</p>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8 inline-block">
             <p className="text-white text-lg mb-2">
-              <span className="font-bold text-yellow-400">βテスト期間：</span>2026年7月～9月
+              <span className="font-bold text-yellow-400">βテスト期間：</span>2026年10月～12月
             </p>
             <p className="text-white text-lg">
-              <span className="font-bold text-yellow-400">製品版リリース：</span>2026年10月予定
+              <span className="font-bold text-yellow-400">製品版リリース：</span>2027年1月予定
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -159,7 +159,7 @@ export default function Home() {
               </div>
               <div className="mb-4">
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">ALISA（スマートERP）</h3>
-                <div className="inline-block bg-amber-100 text-amber-900 px-3 py-1 rounded-full text-xs font-bold">開発中・2026年10月リリース予定</div>
+                <div className="inline-block bg-amber-100 text-amber-900 px-3 py-1 rounded-full text-xs font-bold">開発中・2027年1月リリース予定</div>
               </div>
               <p className="text-gray-600 mb-6">小規模製造業のための統合管理システム。生産計画、在庫管理、製造管理を一元化。</p>
               {['MRP対応', 'クラウド対応', 'カスタマイズ可能'].map((f) => (
@@ -303,7 +303,7 @@ export default function Home() {
                   <h3 className="text-lg font-bold text-gray-800 mb-4">募集要項</h3>
                   <ul className="space-y-3 text-gray-700">
                     <li><span className="font-semibold">募集社数：</span>3社限定</li>
-                    <li><span className="font-semibold">期間：</span>2026年7月～9月（3ヶ月間）</li>
+                    <li><span className="font-semibold">期間：</span>2026年10月～12月（3ヶ月間）</li>
                     <li><span className="font-semibold">対象：</span>製造業であればOK</li>
                   </ul>
                 </div>
