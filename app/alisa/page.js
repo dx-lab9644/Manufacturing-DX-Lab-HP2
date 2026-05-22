@@ -228,7 +228,7 @@ export default function AlisaPage() {
           {/* βテスター */}
           <div className="max-w-4xl mx-auto mt-8 bg-yellow-50 border border-yellow-200 rounded-2xl p-8 text-center">
             <div className="inline-block bg-yellow-500 text-gray-900 px-4 py-1 rounded-full text-sm font-bold mb-3">限定3社 βテスター募集中</div>
-            <p className="text-gray-700 mb-2">βテスト期間（2026年7月〜9月）は<strong>初期費用・月額ともに無料</strong></p>
+            <p className="text-gray-700 mb-2">βテスト期間（2026年10月〜12月）は<strong>初期費用・月額ともに無料</strong></p>
             <p className="text-sm text-gray-600 mb-6">製品版移行時に料金優遇あり</p>
             <Link href="/#beta" className="bg-blue-700 hover:bg-blue-800 text-white px-8 py-3 rounded-lg font-bold transition-all inline-block">
               βテスターに応募する
