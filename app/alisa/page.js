@@ -61,7 +61,7 @@ export default function AlisaPage() {
       <Header />
 
       {/* ヒーロー */}
-      <section className="relative pt-32 pb-24 bg-gradient-to-br from-gray-900 to-red-900 text-white overflow-hidden">
+      <section className="relative pt-32 pb-24 bg-gradient-to-br from-gray-900 to-blue-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)', backgroundSize: '40px 40px' }} />
         </div>
@@ -77,7 +77,7 @@ export default function AlisaPage() {
               製造現場16年の経験から生まれた、本当に使えるスマートERP。
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/#beta" className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105">
+              <Link href="/#beta" className="bg-blue-700 hover:bg-blue-800 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105">
                 βテスターに応募する
               </Link>
               <Link href="/#contact" className="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all border border-white/30">
@@ -145,7 +145,7 @@ export default function AlisaPage() {
             <div className="grid md:grid-cols-3 gap-4">
               {['BOM（部品表）管理', 'マスターデータ管理', 'ユーザー・権限管理', 'レポート・分析', 'データエクスポート', 'マルチテナント対応'].map((item) => (
                 <div key={item} className="flex items-center gap-2 text-gray-700">
-                  <svg className="w-5 h-5 text-red-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-blue-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   {item}
@@ -192,8 +192,8 @@ export default function AlisaPage() {
             </div>
 
             {/* 製品版 */}
-            <div className="bg-red-600 rounded-2xl p-8 text-white relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-red-500 rounded-full -translate-y-1/2 translate-x-1/2" />
+            <div className="bg-blue-700 rounded-2xl p-8 text-white relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600 rounded-full -translate-y-1/2 translate-x-1/2" />
               <div className="relative z-10">
                 <div className="text-center mb-6">
                   <div className="inline-block bg-white/20 text-white px-4 py-1 rounded-full text-sm font-bold mb-3">製品版</div>
@@ -201,22 +201,22 @@ export default function AlisaPage() {
                 </div>
                 <div className="space-y-4 mb-8">
                   <div className="flex justify-between items-center border-b border-white/30 pb-3">
-                    <span className="text-red-100">初期費用</span>
+                    <span className="text-blue-100">初期費用</span>
                     <span className="font-bold">150,000円〜</span>
                   </div>
                   <div className="flex justify-between items-center border-b border-white/30 pb-3">
-                    <span className="text-red-100">月額料金</span>
+                    <span className="text-blue-100">月額料金</span>
                     <div className="text-right">
                       <span className="font-bold text-2xl">60,000</span>
-                      <span className="text-red-100 text-sm ml-1">円/月</span>
+                      <span className="text-blue-100 text-sm ml-1">円/月</span>
                     </div>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-red-100">ユーザー数</span>
+                    <span className="text-blue-100">ユーザー数</span>
                     <span className="font-bold">無制限</span>
                   </div>
                 </div>
-                <ul className="space-y-2 text-sm text-red-100 mb-6">
+                <ul className="space-y-2 text-sm text-blue-100 mb-6">
                   <li>✅ 全機能込み（追加料金なし）</li>
                   <li>✅ カスタマイズ対応（別途お見積り）</li>
                   <li>✅ 継続的なサポート</li>
@@ -230,7 +230,7 @@ export default function AlisaPage() {
             <div className="inline-block bg-yellow-500 text-gray-900 px-4 py-1 rounded-full text-sm font-bold mb-3">限定3社 βテスター募集中</div>
             <p className="text-gray-700 mb-2">βテスト期間（2026年7月〜9月）は<strong>初期費用・月額ともに無料</strong></p>
             <p className="text-sm text-gray-600 mb-6">製品版移行時に料金優遇あり</p>
-            <Link href="/#beta" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-bold transition-all inline-block">
+            <Link href="/#beta" className="bg-blue-700 hover:bg-blue-800 text-white px-8 py-3 rounded-lg font-bold transition-all inline-block">
               βテスターに応募する
             </Link>
           </div>
@@ -248,7 +248,7 @@ export default function AlisaPage() {
             {steps.map((step, i) => (
               <div key={step.num} className="flex gap-6 mb-8 last:mb-0">
                 <div className="flex-shrink-0 flex flex-col items-center">
-                  <div className="w-14 h-14 bg-red-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                  <div className="w-14 h-14 bg-blue-700 text-white rounded-full flex items-center justify-center font-bold text-lg">
                     {step.num}
                   </div>
                   {i < steps.length - 1 && <div className="w-0.5 h-full bg-gray-200 mt-2" />}
@@ -268,7 +268,7 @@ export default function AlisaPage() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-4">まずはお気軽にご相談ください</h2>
           <p className="text-gray-400 mb-8">現在の業務課題をお聞かせいただき、ALISAがどのようにお役に立てるかご提案します</p>
-          <Link href="/#contact" className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 inline-block">
+          <Link href="/#contact" className="bg-blue-700 hover:bg-blue-800 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 inline-block">
             お問い合わせ
           </Link>
         </div>
