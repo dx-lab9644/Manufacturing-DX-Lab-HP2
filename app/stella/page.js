@@ -85,7 +85,7 @@ export default function StellaPage() {
       <Header />
 
       {/* ヒーロー */}
-      <section className="relative pt-32 pb-24 bg-gradient-to-br from-gray-900 to-blue-900 text-white overflow-hidden">
+      <section className="relative pt-32 pb-24 bg-gradient-to-br from-gray-900 to-amber-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)', backgroundSize: '40px 40px' }} />
         </div>
@@ -101,7 +101,7 @@ export default function StellaPage() {
               K-meansクラスタリングで最適な倉庫レイアウトを実現。
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/#contact" className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105">
+              <Link href="/#contact" className="bg-amber-900 hover:bg-amber-800 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105">
                 お問い合わせ・お見積り
               </Link>
               <Link href="#features" className="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all border border-white/30">
@@ -145,7 +145,7 @@ export default function StellaPage() {
                   { title: '継続的な改善', desc: '定期的な再分析で、需要変化に合わせてロケーションを最適化し続けます。', color: 'blue' },
                 ].map((item) => (
                   <div key={item.title} className="bg-white rounded-xl p-6">
-                    <div className="text-blue-600 font-bold mb-2">{item.title}</div>
+                    <div className="text-amber-800 font-bold mb-2">{item.title}</div>
                     <div className="text-sm text-gray-600">{item.desc}</div>
                   </div>
                 ))}
@@ -165,7 +165,7 @@ export default function StellaPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {features.map((f) => (
               <div key={f.title} className="bg-white rounded-2xl p-6 hover:shadow-lg transition-shadow">
-                <div className="bg-blue-100 text-blue-600 w-14 h-14 rounded-xl flex items-center justify-center mb-4">
+                <div className="bg-blue-100 text-amber-800 w-14 h-14 rounded-xl flex items-center justify-center mb-4">
                   {f.icon}
                 </div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">{f.title}</h3>
@@ -173,7 +173,7 @@ export default function StellaPage() {
                 <ul className="space-y-1">
                   {f.details.map((d) => (
                     <li key={d} className="flex items-center gap-2 text-xs text-gray-600">
-                      <svg className="w-3 h-3 text-blue-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <svg className="w-3 h-3 text-amber-800 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                       {d}
@@ -195,7 +195,7 @@ export default function StellaPage() {
           </div>
           <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg border border-gray-100 p-12">
             <div className="text-center mb-12">
-              <div className="inline-block bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">受注ベース提供</div>
+              <div className="inline-block bg-blue-100 text-amber-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">受注ベース提供</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-2">STELLA（在庫管理システム）</h3>
               <p className="text-gray-600">規模・要件に応じてカスタマイズ対応</p>
             </div>
@@ -220,7 +220,7 @@ export default function StellaPage() {
               <ul className="space-y-2 text-gray-700 text-sm">
                 {['全機能込み（追加料金なし）', 'AI分析機能（K-meansクラスタリング）', 'ユーザー数無制限', '初期設定・データ移行サポート', 'トレーニング実施', '継続的な運用サポート', 'カスタマイズ対応（別途お見積り）'].map((item) => (
                   <li key={item} className="flex items-center gap-2">
-                    <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-4 h-4 text-amber-800" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     {item}
@@ -229,7 +229,7 @@ export default function StellaPage() {
               </ul>
             </div>
             <div className="text-center">
-              <Link href="/#contact" className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 inline-block">
+              <Link href="/#contact" className="bg-amber-900 hover:bg-amber-800 text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 inline-block">
                 お問い合わせ・お見積り
               </Link>
             </div>
@@ -248,7 +248,7 @@ export default function StellaPage() {
             {steps.map((step, i) => (
               <div key={step.num} className="flex gap-6 mb-8 last:mb-0">
                 <div className="flex-shrink-0 flex flex-col items-center">
-                  <div className="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                  <div className="w-14 h-14 bg-amber-900 text-white rounded-full flex items-center justify-center font-bold text-lg">
                     {step.num}
                   </div>
                   {i < steps.length - 1 && <div className="w-0.5 h-full bg-gray-200 mt-2" />}
@@ -268,7 +268,7 @@ export default function StellaPage() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-4">在庫管理の課題、STELLAで解決しませんか</h2>
           <p className="text-gray-400 mb-8">AI分析で倉庫の効率を最大化。まずはお気軽にご相談ください。</p>
-          <Link href="/#contact" className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 inline-block">
+          <Link href="/#contact" className="bg-amber-900 hover:bg-amber-800 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 inline-block">
             お問い合わせ
           </Link>
         </div>
