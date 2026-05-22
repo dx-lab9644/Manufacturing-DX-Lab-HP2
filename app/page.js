@@ -31,16 +31,16 @@ export default function Home() {
           <p className="text-lg md:text-xl mb-8 text-gray-300">製造業の管理をシンプルに。</p>
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-8 inline-block">
             <p className="text-white text-lg mb-2">
-              <span className="font-bold text-yellow-400">βテスト期間：</span>2026年10月～12月
+              <span className="font-bold text-yellow-400">βテスト期間：</span>2026年7月～9月
             </p>
             <p className="text-white text-lg">
-              <span className="font-bold text-yellow-400">製品版リリース：</span>2027年1月予定
+              <span className="font-bold text-yellow-400">製品版リリース：</span>2026年10月予定
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/#beta"
-              className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105"
+              className="bg-blue-700 hover:bg-blue-800 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105"
             >
               βテスターに応募する（3社限定）
             </Link>
@@ -110,7 +110,7 @@ export default function Home() {
           </div>
           <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg p-12">
             <div className="text-center mb-12">
-              <div className="inline-block bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">全機能込み</div>
+              <div className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">全機能込み</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-2">ALISA（スマートERP）</h3>
               <p className="text-gray-600">製品版リリース後の料金（予定）</p>
             </div>
@@ -133,7 +133,7 @@ export default function Home() {
             <div className="text-center">
               <Link
                 href="/#contact"
-                className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 inline-block"
+                className="bg-blue-700 hover:bg-blue-800 text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 inline-block"
               >
                 お問い合わせ
               </Link>
@@ -152,14 +152,14 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* ALISA */}
             <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-shadow">
-              <div className="bg-red-600 text-white w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+              <div className="bg-blue-700 text-white w-16 h-16 rounded-xl flex items-center justify-center mb-6">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
               </div>
               <div className="mb-4">
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">ALISA（スマートERP）</h3>
-                <div className="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-xs font-bold">開発中・2026年10月リリース予定</div>
+                <div className="inline-block bg-amber-100 text-amber-900 px-3 py-1 rounded-full text-xs font-bold">開発中・2026年10月リリース予定</div>
               </div>
               <p className="text-gray-600 mb-6">小規模製造業のための統合管理システム。生産計画、在庫管理、製造管理を一元化。</p>
               {['MRP対応', 'クラウド対応', 'カスタマイズ可能'].map((f) => (
@@ -172,21 +172,21 @@ export default function Home() {
               ))}
               <div className="text-2xl font-bold text-gray-800 mb-2 mt-4">月額 60,000円</div>
               <p className="text-sm text-gray-600 mb-6">※製品版リリース後の料金</p>
-              <Link href="/alisa" className="block w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-semibold transition-colors text-center">
+              <Link href="/alisa" className="block w-full bg-blue-700 hover:bg-blue-800 text-white py-3 rounded-lg font-semibold transition-colors text-center">
                 詳しく見る
               </Link>
             </div>
 
             {/* STELLA */}
             <div className="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-shadow">
-              <div className="bg-blue-600 text-white w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+              <div className="bg-amber-900 text-white w-16 h-16 rounded-xl flex items-center justify-center mb-6">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
               </div>
               <div className="mb-4">
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">STELLA（在庫管理システム）</h3>
-                <div className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-bold">受注ベース提供</div>
+                <div className="inline-block bg-amber-100 text-amber-900 px-3 py-1 rounded-full text-xs font-bold">受注ベース提供</div>
               </div>
               <p className="text-gray-600 mb-6">AI搭載の在庫管理システム。K-meansクラスタリングによるロケーション分析で倉庫業務を最適化。</p>
               {['AI搭載（クラスタリング分析）', 'バーコードスキャン対応', '棚卸・入出庫管理'].map((f) => (
@@ -199,7 +199,7 @@ export default function Home() {
               ))}
               <div className="text-2xl font-bold text-gray-800 mb-2 mt-4">月額 60,000円</div>
               <p className="text-sm text-gray-600 mb-6">※初期費用別途</p>
-              <Link href="/stella" className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors text-center">
+              <Link href="/stella" className="block w-full bg-amber-900 hover:bg-amber-800 text-white py-3 rounded-lg font-semibold transition-colors text-center">
                 詳しく見る
               </Link>
             </div>
@@ -293,11 +293,11 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <div className="inline-block bg-red-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-4">限定3社募集</div>
+              <div className="inline-block bg-blue-700 text-white px-6 py-2 rounded-full text-sm font-bold mb-4">限定3社募集</div>
               <h2 className="text-4xl font-bold text-gray-800 mb-4">ALISA（スマートERP）βテスター募集</h2>
               <p className="text-xl text-gray-600">製品開発にご協力いただける企業様を募集しています</p>
             </div>
-            <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-10 mb-12">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-10 mb-12">
               <div className="grid md:grid-cols-2 gap-8 mb-10">
                 <div>
                   <h3 className="text-lg font-bold text-gray-800 mb-4">募集要項</h3>
@@ -320,7 +320,7 @@ export default function Home() {
             <div className="text-center">
               <Link
                 href="/#contact"
-                className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 inline-block"
+                className="bg-blue-700 hover:bg-blue-800 text-white px-12 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 inline-block"
               >
                 βテスターに応募する
               </Link>
